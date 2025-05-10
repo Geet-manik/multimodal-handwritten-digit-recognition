@@ -39,6 +39,34 @@ The script will:
 
 - The multimodal model achieves high accuracy on the test set.
 - Combining image and pen stroke features improves robustness, especially for ambiguous digits.
+- The script also displays a visualization of sample predictions.
+
+---
+
+## 📝 Reflections
+
+- **What worked:**  
+- The model effectively fuses information from both modalities.
+- Pen stroke features help clarify ambiguous images.
+- **Limitations:**  
+- Datasets are not perfectly aligned (not the same digit instances), but this approach demonstrates the concept.
+- **Future Work:**  
+- Use datasets with paired image and pen stroke data (e.g., Quick, Draw!).
+- Experiment with more advanced fusion techniques (attention, late fusion).
+- Try deeper neural networks for each branch.
+
+---
+
+## 📖 References
+
+- [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
+- [UCI Pen-Based Recognition of Handwritten Digits](https://archive.ics.uci.edu/ml/datasets/pen-based+recognition+of+handwritten+digits)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- DA623 Course Materials
+
+---
+
+**Project for DA623 Winter 2025 | Geetanjay Maink (210102033)**
 
 
 
