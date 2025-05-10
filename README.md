@@ -26,6 +26,22 @@ Handwritten digit recognition is a classic machine learning problem. Traditional
 - **Fusion**: Concatenates outputs from both branches.
 - **Classifier**: Fully connected layers output digit class probabilities.
 
-**Diagram:**
+
+The script will:
+- Download both datasets automatically.
+- Train the multimodal model.
+- Print training loss and test accuracy.
+- Show visualizations of predictions.
+
+---
+
+## 📊 Results
+
+- The multimodal model achieves high accuracy on the test set.
+- Combining image and pen stroke features improves robustness, especially for ambiguous digits.
+
+
+
+
 
 
